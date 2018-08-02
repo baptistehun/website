@@ -111,6 +111,14 @@ p{
   padding : 0 7px 0 20px;
 }
 
+#interet p{
+  display: inline-block;
+}
+
+#interet i{
+  padding : 0 5px 0 20px;
+}
+
 #competence p{
   display: inline-block;
   padding-right: 20px;
@@ -175,13 +183,6 @@ p{
 .prog90{
   height: 15px;
   width: 135px;
-  background-color: #B7B7FF!important;
-  z-index: 1;
-}
-
-.prog85{
-  height: 15px;
-  width: 127.5px;
   background-color: #B7B7FF;
 }
 .prog70{
@@ -189,17 +190,26 @@ p{
   width: 105px;
   background-color: #B7B7FF;
 }
+.prog65{
+  height: 15px;
+  width: 97.5px;
+  background-color: #B7B7FF;
+}
+.prog60{
+  height: 15px;
+  width: 90px;
+  background-color: #B7B7FF;
+}
 .prog50{
   height: 15px;
   width: 75px;
   background-color: #B7B7FF;
 }
-.prog30{
+.prog40{
   height: 15px;
-  width: 45px;
+  width: 60px;
   background-color: #B7B7FF;
 }
-
 
 
 
