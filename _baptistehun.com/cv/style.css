@@ -37,12 +37,13 @@ p{
 #main{
   width: 95%;
   margin: 10px auto;
+  position: absolute;
   
 }
 
 
 #gauche{
-  height: 1150px;
+  height: 1175px;
   padding: 10px;
   padding-bottom: 10px;
   width: 300px;
@@ -142,8 +143,8 @@ p{
 
 #image{
   position: relative;
-  top: -640px;
-  left: 210px;
+  top: 550px;
+  left: 180px;
   width: 616px;
   border: 1px solid #6d89a1;
   border-right: none;
@@ -211,10 +212,33 @@ p{
   background-color: #B7B7FF;
 }
 
+/* bouton*/
 
+#retour{
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 120px;
+  height: 60px;
+}
 
+.btn{
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  background-color: #7294d1;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  transition: 1s;
+}
 
-
+.btn:hover{
+  background-color: white;
+  color: #7294d1;
+  cursor: pointer;
+}
 
 
 
